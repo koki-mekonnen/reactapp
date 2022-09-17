@@ -1,0 +1,121 @@
+.team{
+    background-image: url('./img/aboutbacke.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width:100%;
+    height:100vh;
+    padding-top: 20%;
+    padding-right: 50px;
+    
+}
+.head{
+    text-align: center;
+    padding-top: 10%;
+}
+ .img{
+    display: flex;
+}
+.profile {
+    display: flex;
+}
+
+
+
+.team1{
+    background-color: rgb(250, 248, 248);
+    width:450px;
+    margin-top: 250px;
+    margin-left: 60px;
+}
+.profile img{
+    width:400px;
+    padding: 30px;
+    height: 500px;
+    align-items: center;
+}
+.overlay{
+    position: absolute;
+    z-index: 11;
+    display: flex;
+    flex-direction:column;
+    padding: 30px;;
+    transition: 0.5s;
+     margin-top: -350px;
+ opacity:0;
+}
+
+.overlay i{
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    margin: 5px;
+    margin-top: 20px;
+    padding: 10px;
+} 
+.details{
+    text-align: center;
+    padding: 30px;
+    color: gray;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.details p{
+    font-weight: 500;
+    font-size: 20px;
+    transition:0.5s;
+}
+.profile .team1:hover{
+    background-color: #1eaba1;
+    color:white;
+    
+}
+.team1:hover .details{
+    color: white;
+}
+.profile .team1:hover .overlay{
+    opacity: 1;
+}
+.overlay:hover i{
+    background-color: #1eaba1;
+    border-radius: 50%;
+}
+@media screen and (max-width: 768px)  {
+    .team{
+       background-position:center ; 
+    }
+    .head{
+        text-align: center;
+        padding-top: 70%;
+        font-size: 90px;
+    }
+  .profile  .team1{
+        margin-top: 300px;
+        width:300px;
+    }
+    .profile img{
+        width:200px;
+        padding: 30px;
+        height: 300px;
+        align-items: center;
+    }
+    .profile .team1:hover{
+        background-color: #1eaba1;
+        color:white;
+        
+    }
+    .team1:hover .details{
+        color: white;
+    }
+    .profile .team1:hover .overlay{
+        opacity: 1;
+    }
+}
+
+
+
+
+

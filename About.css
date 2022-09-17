@@ -1,0 +1,157 @@
+.about{
+    background-image: url('./img/aboutbacke.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height:100vh;
+    padding-top: 20%;
+    padding-right: 50px;
+    color:black;
+    margin-bottom: 100px;
+}
+.about{
+    text-align: center;
+    padding-top: 500px;
+    
+}
+.ab{
+    font-weight: 400;
+    font-size: 30px;
+}
+.abus{
+    font-weight: 600;
+    font-size: 90px; 
+}   
+
+
+/*  css for ab.jsx */
+.more {
+    background-color: white;
+margin-top: 800px;
+background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 30px;
+}
+.more img{
+    width:1000px;
+     
+}
+.contain img{
+    width:100px;
+    padding-right: 30px;
+}
+.part1{
+    display: flex;
+    padding-left: 80px;
+    margin-top: 70px;
+    color:black;
+    background-color:aliceblue;
+    text-align: left;
+}
+.contain  .part1:hover{
+background-color:#1eb2a6 ;
+box-shadow: 0 5px 25px -2px rgb(0, 0, 0,0.09);
+color: white;
+}
+.contain  .part2:hover{
+    background-color:#1eb2a6 ;
+    box-shadow: 0 5px 25px -2px rgb(0, 0, 0,0.09);
+    color: white;
+    }
+    .contain  .part3:hover{
+        background-color:#1eb2a6 ;
+        box-shadow: 0 5px 25px -2px rgb(0, 0, 0,0.09);
+        color: white;
+        }
+.part2{
+    display: flex;
+    padding-left: 80px;
+    margin-top: 70px;
+    width:90%;
+    color:black;
+    text-align: left;
+    background-color:aliceblue;
+}
+.part3{
+    display: flex;
+    padding-left: 80px;
+    margin-top: 70px;
+    width:90%;
+    color:black;
+    text-align: left;
+    background-color:aliceblue;
+}
+.mo p{
+    font-size: 40px;
+    color:black;
+}
+.mo h6{
+    color:#1eb2a6 ;
+    font-weight: 600;
+    font-size: 30px;
+}
+.margin{
+    background-image: url('./img/lib.jpg');
+    margin-top: 1000px;
+    width:100%;
+    height: 30vh;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    display:flex;
+    justify-content: space-around;
+    color:black;
+    
+}
+.margin img{
+    width:100px;
+   
+}
+.margin p{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .about{
+        background-position: center;
+    }
+    .more{
+        flex-direction: column-reverse;
+    }
+    .more img{
+        width:600px;
+         
+    }
+    .contain img{
+        width:100px;
+        
+    }
+     .contain:hover{
+        background-color:#1eb2a6 ;
+        box-shadow: 0 5px 25px -2px rgb(0, 0, 0,0.09);
+        color: white;
+        }
+.margin{
+    margin-top: 1250px;
+}
+
+
+
+}

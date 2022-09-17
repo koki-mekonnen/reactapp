@@ -1,0 +1,68 @@
+.test1{
+    background-color: rgb(250, 245, 245);
+    width:450px;
+    height: 300px;
+    margin-left: 60px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.te1{
+    display: flex;
+}
+.te1 h3{
+    margin-top: 80px;
+}
+.te2{
+    display: flex;
+}
+.te2 h3{
+    margin-top: 80px;
+}
+.te3{
+    display: flex;
+}
+.te3 h3{
+    margin-top: 80px;
+}
+.test1 p{
+font-weight: 600;
+font-size: 18px;
+font-style: oblique;
+}
+.test1 img{
+    width:170px;
+    height:170px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.test1 .te1 i{
+    position: absolute;
+    margin-top: 120px;
+    left:200px;
+    background-color: #1eb2a6;
+    color: white;
+    font-size: 30px;
+}
+.test1 .te2 i{
+    position: absolute;
+    margin-top: 120px;
+    left:720px;
+    background-color: #1eb2a6;
+    color: white;
+    font-size: 30px;
+}
+.test1 .te3 i{
+    position: absolute;
+    margin-top: 120px;
+    left:1230px;
+    background-color: #1eb2a6;
+    color: white;
+    font-size: 30px;
+}
+.testimoniys {
+    display: flex;
+}
+.testimoniys .test1:hover {
+    background-color: #1eb2a6;
+    color: white;
+}
