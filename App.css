@@ -1,0 +1,37 @@
+body{
+  background-color: rgb(253, 252, 252);
+}
+.name{
+  display:flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  color: white;
+  font-weight: 600;
+  padding-left: 50px;
+  
+}
+.name h1{
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.name span{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.icons{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-top: 20px;
+  color:#1eaba1;
+  
+}
+.icons i{
+  background-color: rgba(255, 255, 255, 0.4);
+  padding:15px;
+  border-radius: 50%;
+}
+.icons:hover i{
+  background-color:  #1eaba1;
+  color:white;
+}
